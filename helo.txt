@@ -1,0 +1,49 @@
+// PS D:\RGB 2302360\Programs> git config --global user.name RVenemy
+// PS D:\RGB 2302360\Programs> git config --global user.email rvenemy@gmail.com
+// PS D:\RGB 2302360\Programs> git remmote --list
+// git: 'remmote' is not a git command. See 'git --help'.
+
+// The most similar command is 
+//         remote
+// PS D:\RGB 2302360\Programs> git remote --list 
+// error: unknown option `list'
+// usage: git remote [-v | --verbose]
+//    or: git remote add [-t <branch>] [-m <master>] [-f] [--tags | --no-tags] [--mirror=<fetch|push>] <name> <url>
+//    or: git remote rename <old> <new>
+//    or: git remote remove <name>
+//    or: git remote set-head <name> (-a | --auto | -d | --delete | <branch>)
+//    or: git remote [-v | --verbose] show [-n] <name>
+//    or: git remote set-branches [--add] <name> <branch>...
+//    or: git remote get-url [--push] [--all] <name>
+//    or: git remote set-url [--push] <name> <newurl> [<oldurl>]
+//    or: git remote set-url --add <name> <newurl>
+//    or: git remote set-url --delete <name> <url>
+
+//     -v, --verbose         be verbose; must be placed before a subcommand
+
+// PS D:\RGB 2302360\Programs>
+// PS D:\RGB 2302360\Programs> git remote --get-url --all
+// error: unknown option `get-url'
+// usage: git remote [-v | --verbose]
+//    or: git remote add [-t <branch>] [-m <master>] [-f] [--tags | --no-tags] [--mirror=<fetch|push>] <name> <url>
+//    or: git remote rename <old> <new>
+//    or: git remote remove <name>
+//    or: git remote set-head <name> (-a | --auto | -d | --delete | <branch>)
+//    or: git remote [-v | --verbose] show [-n] <name>
+//    or: git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
+//    or: git remote set-branches [--add] <name> <branch>...
+//    or: git remote get-url [--push] [--all] <name>
+//    or: git remote set-url [--push] <name> <newurl> [<oldurl>]
+//    or: git remote set-url --add <name> <newurl>
+
+//     -v, --verbose         be verbose; must be placed before a subcommand
+
+// PS D:\RGB 2302360\Programs> git remote get-url --all  
+// usage: git remote get-url [--push] [--all] <name>
+
+//     --push                query push URLs rather than fetch URLs
+//     --all                 return all URLs
+
+// PS D:\RGB 2302360\Programs> git remote get-url --all origin
+// https://github.com/RVenemy/Programs.git
+// PS D:\RGB 2302360\Programs> 
