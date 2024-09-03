@@ -1,0 +1,22 @@
+programon inheritance
+
+creat a class call employe 
+the class employe has three variables
+   employe id ,employe name , and employe address and 
+   methode display employe info 
+   
+there is a class called permanent employe which has four variables 
+   basic pay, Da,hra,and ta and 
+   a methode to compute the salary,
+   thre is also a methode to display the salary   
+permant employe is the chiled class and employe is the parent class
+
+
+
+
+consider the above employee class and add a manager class to it
+the manager class has the variables at once salary and vehical to pic him up
+and methodes to print the advance pay and vehicals , 
+manager class is the childe class and parmenant employee is the parent class 
+
+Create a class caleed as player with a following variable player name , address , age , height ,inistialize above instance variable using a constructor, use scetic members to count the nuumber of objects created and disply the count. also include a display methode to output the player detailes.
